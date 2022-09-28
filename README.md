@@ -6,18 +6,20 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * Method names
     * Variables
 * Using Java terminology, break down every piece of the method **convertF2K**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
+    * What is the access modifier? - _public_
+    * Is it a class or object method, how do you know? - _Class method, it's static_
+    * What is its return type? - _double_
+    * What parameters does it require, and what are the parameter(s) datatype(s)? - _Parameter fahrenheit with type double_
+    * Describe for me how the body of the method executes (i.e. its flow of execution). - _Takes the fahrenheit input, converts it to celsius with a method call, then converts _that_ into kelvin using another method call_
 * Using Java terminology, break down method **getUnitChoice**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
-    * How do the format specifiers differ than what you've seen before and what do they do?
+    * What is the access modifier? - _public_
+    * Is it a class or object method, how do you know? - _Class method, it's static_
+    * What is its return type? - _String_
+    * What parameters does it require, and what are the parameter(s) datatype(s)? - _No parameters_
+    * Describe for me how the body of the method executes (i.e. its flow of execution). - _Prints out command instructions to the user and returns the next input_
+    * How do the format specifiers differ than what you've seen before and what do they do? - _We haven't used the string `%s` format specifier with additional arguments before (eg. `%40s`)._
+      * _The `%40s` specifier says that if the string is less than 40 characters, then it will be padded with spaces to the left to fit that length._
+      * _The `%-4s`_ specifier says that if the string is less than 4 characters, then it will be padded with spaces to the RIGHT.
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
